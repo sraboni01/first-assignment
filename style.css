@@ -1,7 +1,8 @@
 *{
     margin: 0;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 /* header start end */
 .header-container{
     background-image: url('images/banner/banner3.png');
@@ -115,7 +116,7 @@ button a:hover{
     margin: 50px 100px;
     padding: 50px 100px;
     /* background-image: linear-gradient(90deg, rgba(255,0,0,1) 27%, rgba(0,0,1,1) 100%),url ('images/watch.png'); */
-    background-image: linear-gradient(to right, rgba(22, 92, 245, 0.705), rgba(20, 20, 20, 0.514)), url('images/watch.png');
+    background-image: linear-gradient(to right, rgba(22, 92, 245, 0.705), rgba(20, 20, 20, 0.233)), url('images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
