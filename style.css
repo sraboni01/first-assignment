@@ -68,7 +68,7 @@ nav ul li{
 .right-side{
   padding: 0px 150px;
 }
-.right-side h2{
+.title{
     color: #000;
     font-weight: bold;
     font-size: 42px;
@@ -76,4 +76,14 @@ nav ul li{
 .right-side p{
     color: rgb(70, 69, 69);
     padding: 20px 0px 20px 0px;
+}
+.right-side li{
+    list-style: none;
+    margin: 15px 0px 15px 0px;
+}
+.right-side li i{
+    color: green;
+}
+.fa-solid{
+    margin-right: 10px;
 }
