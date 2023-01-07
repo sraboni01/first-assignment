@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Space Grotesk', sans-serif;
 }
+/* header start end */
 .header-container{
     background-image: url('images/banner/banner3.png');
     background-size: cover;
@@ -23,7 +24,7 @@ nav ul li{
     
 }
 .header-description {
-    padding: 250px 0px 250px 550px;
+    padding: 250px 0px 250px 450px;
     text-align: right;
     width: 50%;
     margin: 0 auto;
@@ -49,7 +50,30 @@ nav ul li{
     font-weight: 700;
     border-radius: 10px;
 }
+.header-description button a{
+    text-decoration: none;
+}
 .header-description button:hover{
     background-color: rgb(16, 16, 131);
+}
+.header-description button a:hover{
     color: #fff;
+}
+/* about css */
+.about{
+    display: flex;
+    align-items: center;
+    margin: 50px 100px;
+}
+.right-side{
+  padding: 0px 150px;
+}
+.right-side h2{
+    color: #000;
+    font-weight: bold;
+    font-size: 42px;
+}
+.right-side p{
+    color: rgb(70, 69, 69);
+    padding: 20px 0px 20px 0px;
 }
