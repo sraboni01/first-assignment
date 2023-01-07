@@ -41,7 +41,7 @@ nav ul li{
     margin: 15px 0px 15px 250px;
   
 }
-.header-description button{
+button{
     color: rgb(16, 16, 131);
     padding: 15px 30px;
     background-color: #fff;
@@ -50,13 +50,13 @@ nav ul li{
     font-weight: 700;
     border-radius: 10px;
 }
-.header-description button a{
+button a{
     text-decoration: none;
 }
-.header-description button:hover{
+button:hover{
     background-color: rgb(16, 16, 131);
 }
-.header-description button a:hover{
+button a:hover{
     color: #fff;
 }
 /* about css */
@@ -107,4 +107,19 @@ nav ul li{
     font-size: 18px;
     font-weight: 600;
     color: rgb(92, 92, 92);
+}
+/* call now */
+.call-now{
+    max-width: 80%;
+    margin: 0 auto;
+    margin: 50px 100px;
+    padding: 50px 100px;
+    /* background-image: linear-gradient(90deg, rgba(255,0,0,1) 27%, rgba(0,0,1,1) 100%),url ('images/watch.png'); */
+    background-image: linear-gradient(to right, rgba(238, 104, 14, 0.705), rgba(20, 20, 20, 0.514)), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.call-now h2{
+    color: #fff;
+    margin-bottom: 20px;
 }
