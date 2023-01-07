@@ -4,6 +4,13 @@
 }
 
 /* header start end */
+.logo{
+    font-size: 26px;
+    font-weight: 700;
+}
+.logo span{
+    color: orange;
+}
 .header-container{
     background-image: url('images/banner/banner3.png');
     background-size: cover;
@@ -22,6 +29,8 @@ nav ul{
 nav ul li{
     list-style: none;
     margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
     
 }
 .header-description {
@@ -89,6 +98,9 @@ button a:hover{
     margin-right: 10px;
 }
 /* my plan to skill */
+.my-plan-section{
+    padding: 0px 100px;
+}
 .my-plan-section h2{
     text-align: center;
 }
@@ -124,6 +136,30 @@ button a:hover{
     color: #fff;
     margin-bottom: 20px;
 }
+
+/* my skill section */
+.skill-section{
+    padding: 50px 100px;
+}
+.title-section{
+    text-align: center;
+}
+.my-skill{
+    display: flex;
+    justify-content:space-between;
+}
+.single-part{
+    margin: 10px;;
+}
+.single-part {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 6px 7px 11px 0px #abd5ff;
+}
+.single-part img , h3, p{
+    padding: 10px 0px;
+}
+
 /* footer area */
 .footer{
     display: flex;
