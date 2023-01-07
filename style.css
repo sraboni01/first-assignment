@@ -160,7 +160,7 @@ button a:hover{
     padding: 10px 0px;
 }
 
-/* footer area */
+/* footer area start */
 .footer{
     display: flex;
     justify-content: space-between;
@@ -203,3 +203,4 @@ input {
     border-radius: 10px;
     color: #fff;
 }
+/* footer css end */
